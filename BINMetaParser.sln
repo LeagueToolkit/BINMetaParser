@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BINMetaParser", "BINMetaParser\BINMetaParser.csproj", "{E4F23E9C-03C3-4E5D-94C4-B42B0052D1E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F23E9C-03C3-4E5D-94C4-B42B0052D1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F23E9C-03C3-4E5D-94C4-B42B0052D1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F23E9C-03C3-4E5D-94C4-B42B0052D1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F23E9C-03C3-4E5D-94C4-B42B0052D1E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9C4FCED-0842-4E71-A6FE-E59FFF7592A7}
+	EndGlobalSection
+EndGlobal
