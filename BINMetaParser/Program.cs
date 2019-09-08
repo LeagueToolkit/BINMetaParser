@@ -31,11 +31,7 @@ namespace BINMetaParser
                 fieldNames.Add(FNV32.Hash(fieldName.ToLower()), fieldName);
             }
 
-            List<string> classes = new List<string>();
-            foreach(BINClass metaClass in rootObject.classes)
-            {
-                classes.Add(ClassGenerator.GenerateClass(metaClass, classNames, fieldNames));
-            }
+            List<string> classes = ClassGenerator.GenerateClasses(rootObject.classes, classNames, fieldNames).ToList();
 
             File.WriteAllLines("classes.cs", classes);
         }
